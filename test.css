@@ -1,0 +1,40 @@
+body{
+  background: #454545;
+  line-height: 1.7;
+}
+a {
+  text-decoration: none;
+}
+a,body {
+  color: #eee;
+}
+.side-bar {
+float: left;
+width: 30%;
+
+}
+.side-bar > *{
+ padding: 10px 15px;
+}
+.side-bar .nav a{
+  display: block;
+  padding:5px;
+  color: #999;
+  font-weight: 800;
+  transition: color 200ms;
+}
+.side-bar .nav a:hover{
+  color: #eee;
+}
+.main {
+  float: right;
+  width: 70%;
+}
+.header .logo {
+  line-height: 1;
+  border: 5px solid #eee;
+  padding:10px 20px;
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
